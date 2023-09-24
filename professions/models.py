@@ -21,4 +21,4 @@ class Profession(models.Model):
         verbose_name_plural = 'Professions'
 
     def __str__(self):
-        return f"{self.profession_area.name} - {self.name} "
+        return f"{self.profession_area.name} - {self.name}"
