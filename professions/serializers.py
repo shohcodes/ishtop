@@ -12,4 +12,4 @@ class ProfessionAreaSerializer(serializers.ModelSerializer):
 class ProfessionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Profession
-        fields = '__all__'
+        fields = '__all__ '
