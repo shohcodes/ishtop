@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from professions.models import Profession, ProfessionArea
+
+admin.site.register(Profession)
+admin.site.register(ProfessionArea)

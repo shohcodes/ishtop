@@ -19,3 +19,6 @@ class Profession(models.Model):
     class Meta:
         verbose_name = 'Profession'
         verbose_name_plural = 'Professions'
+
+    def __str__(self):
+        return f"{self.profession_area.name} - {self.name}"
