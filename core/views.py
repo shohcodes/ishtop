@@ -51,4 +51,4 @@ def index(request):
 @login_required
 def logout(request):
     auth.logout(request)
-    return redirect('registration', )
+    return redirect('registration',)
